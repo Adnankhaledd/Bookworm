@@ -22,7 +22,7 @@ export class ProductFormComponent implements OnInit {
     ) {
 
     //get categories to send to the select in the product form
-    this.categories$ = categoryService.getCategories();
+    this.categories$ = categoryService.getAll();
     // get the id of the edited producted 
     this.id = this.route.snapshot.paramMap.get('id');
     // if there is an id read from firebase
