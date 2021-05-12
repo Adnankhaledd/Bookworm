@@ -1,28 +1,43 @@
-# Oshop
+# Bookworm
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4.
+A book webstore built with Angular and firebase check live here: https://bookwarm-8015e.web.app/
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Browse products and sort by different categories
+* Shopping cart
+* Check-out
+* Admin, logged in and non logged in  roles
+* Add product and manage orders/products for admin roles
+* Real time Application
+* Login with google
+* All data saved in a real time database
 
-## Code scaffolding
+## features for each role
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+* Not logged in user:
+    * Browse available products.
+    * Add products to carts.
+    * filter with different categories.
+    * view shopping cart.
 
-## Build
+* Logged in user:
+    * Same for not logged in
+    * proceed to check out
+    * view your orders
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* Admins:
+    * Add books
+    * Manage orders
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Preview
+### Home page
+![home page](src\images\homepage.PNG)
+### Shopping cart page
+![shopping cart page](src\images\shoppingcart.png)
+### check page
+![check out page](src\images\checkout.PNG)
+### Success order
+![Success order](src\images\ordersuccess.PNG)
+### manage products
+![manage products](src\images\manageproducts.PNG)
