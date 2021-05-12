@@ -32,12 +32,12 @@ A book webstore built with Angular and firebase check live here: https://bookwar
 
 ## Preview
 ### Home page
-![home page](src\images\homepage.PNG)
+![home page](src/images/homepage.PNG)
 ### Shopping cart page
-![shopping cart page](src\images\shoppingcart.png)
-### check page
-![check out page](src\images\checkout.PNG)
+![shopping cart page](src/images/shoppingcart.PNG)
+### Check page
+![check out page](src/images/checkout.PNG)
 ### Success order
-![Success order](src\images\ordersuccess.PNG)
-### manage products
-![manage products](src\images\manageproducts.PNG)
+![Success order](src/images/ordersuccess.PNG)
+### Manage products
+![manage products](src/images/manageproducts.PNG)
